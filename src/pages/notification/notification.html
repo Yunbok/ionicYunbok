@@ -1,0 +1,31 @@
+<!--
+  Generated template for the NotificationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Notification</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<p> num : {{num}}</p>
+
+  <h3>출입기록 조회</h3>
+  <ion-list>
+      <ion-item *ngFor="let month of months; let i=index">
+          
+          <a class="button">{{i}}: {{month}}, {{names[i]}}</a>
+         
+      </ion-item>
+      
+  </ion-list>
+  
+
+
+</ion-content>

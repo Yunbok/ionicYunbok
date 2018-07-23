@@ -1,0 +1,18 @@
+{
+  "name": "saple",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies":[
+    {
+      "path": "/login",
+      "proxyUrl": "http://localhost:8080/login"
+    },
+    {
+      "path": "/getInfo",
+      "proxyUrl": "http://localhost:8080/getInfo"
+    }
+  ]
+}

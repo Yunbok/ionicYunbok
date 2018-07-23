@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      GOM Main
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>시리얼: {{serialnum}}</p>
+  <ion-content padding>
+      <div class="wrap">
+        <a class="button"(click)=" moveToHomePage()">Open</a>
+        <a class="button2"(click)="moveToUserListPage()">시스템 사용자 조회</a>
+        <a class="button3"(click) = "moveToCCTVPage()">CCTV 영상 조회</a>
+        <a class="button4"(click)=" moveToinputPage()">출입기록 조회</a>
+        <a class="button5"(click)="moveToNotificationPage()">알림 메세지 조회</a>
+    </div>
+    
+    </ion-content>
+</ion-content>
