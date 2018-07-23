@@ -14,7 +14,7 @@ import {NotificationPageModule} from '../pages/notification/notification.module'
 import { UserListPageModule } from '../pages/user-list/user-list.module';
 import { HomePage } from '../pages/home/home';
 
-
+import {HttpModule} from '@angular/http';
 @NgModule({
   declarations: [
     MyApp,
@@ -27,6 +27,7 @@ import { HomePage } from '../pages/home/home';
     NotificationPageModule,
     UserListPageModule,
     LoginPageModule,
+    HttpModule,
     NextPageModule,
     BrowserModule,
     IonicModule.forRoot(MyApp),

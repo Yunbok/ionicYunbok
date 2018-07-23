@@ -15,17 +15,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class InfoPage {
   name:any;
-  img:any;
-  num:any;
+ 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.name = this.navParams.get("name");
-    this.img = this.navParams.get("imgurl");
-    this.num = this.navParams.get("num");
+    this.name = this.navParams.get("db");
+   
 
   }
 
   ionViewDidLoad() {
-    console.log(this.num);
+    console.log(this.name);
     
   }
 
